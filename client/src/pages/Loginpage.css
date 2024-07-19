@@ -1,0 +1,105 @@
+/* Loginpage.css */
+body {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .login-page {
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .login-form {
+    padding: 20px;
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .login-form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ant-form-item label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ant-input {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    background-color: #4e54c8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #8f94fb;
+  }
+  
+  .login-form a {
+    color: #4e54c8;
+    font-weight: bold;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Add animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .login-page {
+      flex-direction: column;
+    }
+  
+    .login-form {
+      max-width: 100%;
+    }
+  
+    img {
+      border-radius: 10px;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+.home-page-container {
+    padding: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .filter-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .switch-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .active-icon {
+    color: #1890ff;
+  }
+  
+  .inactive-icon {
+    color: #d9d9d9;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .ant-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
